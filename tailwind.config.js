@@ -14,5 +14,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["synthwave", "night", "sunset", "dim", "forest", "lofi","dracula"],
+  },
 };
